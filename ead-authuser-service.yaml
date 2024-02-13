@@ -38,7 +38,7 @@ ead:
       userEvent: ead.userevent
 authuser:
   refreshscope:
-    name: jefferson
+    name: jefferson barbosa update
 management:
   endpoints:
     web:
