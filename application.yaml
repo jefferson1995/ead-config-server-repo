@@ -3,7 +3,7 @@ ead:
     username: serviceregistry
     password: 'ead123sr'
   auth:
-    jwtSecret: 9/m3eWQ-7c9a5XZHW?bc5yTzLr?iIR7cv2llbRfbAWe-hg0zVGTsT=ZKW0Bt0HV6dFN1AOuTb7DtPplvAvE/g4f-rKejht?Rks3qCVl8iw2LvYtCCUkL-auHRehFIoRZAcXdB6oC0z6Nom9oMzSnXlSAhJEmMFzPZ1bC7BcT0f?E2My=LEk1QwcsCx29NflYcaS2lM810sWxELX32KkZAbVPkqiwCTm?EELAqclFajns5CGQq2chgwQiUUrT3sglpPKEIq/alR=nIN0yGNRr01Fe1l=N=4AivnTRdNaM254?WXW02MUf28MTlFLuPChuKk7mR2Szr?iasMcFCKJnI-rAPTp?a3=Mv1GRARPiqAMV6Nl?//Q?YbxjPJlKBN4tou0GgDTEN9rBM97qSVi?/B3hpNiB2uI?B9Vu2jrNjwEDLTrepSyhqoSMp0yZnmjMsBkh2ZhohMDZUvCGcxR5odf5uTH9kHmWO7ao!=2VHoYfPoX0CORg3kFdc=I!Zk/O
+    jwtSecret: 0aa427a460a8b75929343e5a7996903d4a765e0c5c454a6f32c8c2d49c010e18c6d7c92df291c0085c472324d556e3d4c1c9be93b5ac2bb80ecac4ea83f71147
     jwtExpirationMs: 14400000
 
 eureka:
