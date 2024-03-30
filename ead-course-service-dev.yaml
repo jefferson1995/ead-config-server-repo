@@ -23,6 +23,12 @@ spring:
       enabled: always
   rabbitmq:
     addresses: amqps://ruefzhwe:E7VAZe3q29on7h26eTbNdYZHeT4aqLfw@chimpanzee.rmq.cloudamqp.com/ruefzhwe
+logging:
+  level:
+    com.ead: INFO
+    root: INFO
+    org.springframework.web: INFO
+    org.hibernate: INFO
 ead:
   api:
     url:
