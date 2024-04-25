@@ -8,14 +8,14 @@ spring:
     gateway:
       routes:
         - id: authuser-service
-          uri: lb://EAD-AUTHUSER-SERVICE
+          uri: service-registry://EAD-AUTHUSER-SERVICE
           predicates:
             - Path=/ead-authuser/**
         - id: course-service
-          uri: lb://EAD-COURSE-SERVICE
+          uri: service-registry://EAD-COURSE-SERVICE
           predicates:
             - Path=/ead-course/**
         - id: notification-service
-          uri: lb://EAD-NOTIFICATION-SERVICE
+          uri: service-registry://EAD-NOTIFICATION-SERVICE
           predicates:
             - Path=/ead-notification/**
