@@ -8,7 +8,7 @@ spring:
     gateway:
       routes:
         - id: authuser-service
-          uri: lb://localhost:8087
+          uri: lb://authuser:8087
           predicates:
             - Path=/ead-authuser/**
         - id: course-service
