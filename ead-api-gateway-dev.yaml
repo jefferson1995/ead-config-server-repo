@@ -7,8 +7,8 @@ spring:
   cloud:
     gateway:
       routes:
-        - id: authuser
-          uri: lb://authuser
+        - id: authuser-service
+          uri: lb://EAD-AUTHUSER-SERVICE
           predicates:
             - Path=/ead-authuser/**
         - id: course-service
