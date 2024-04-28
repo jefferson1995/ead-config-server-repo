@@ -12,7 +12,7 @@ spring:
           lower-case-service-id: true
       routes:
         - id: authuser-service
-          uri: lb://EAD-AUTHUSER-SERVICE
+          uri: lb://service-registry:8087
           predicates:
             - Path=/ead-authuser/**
         - id: course-service
