@@ -6,9 +6,12 @@ spring:
     name: ead-api-gateway
   cloud:
     gateway:
+      discovery:
+        locator:
+          enabled: true
       routes:
         - id: authuser-service
-          uri: http://authuser:8087
+          uri: lb://EAD-AUTHUSER-SERVICE
           predicates:
             - Path=/ead-authuser/**
         - id: course-service
