@@ -36,6 +36,10 @@ ead:
   broker:
     exchange:
       userEvent: ead.userevent
+      paymentEvent: ead.paymentevent
+    queue:
+      paymentEventQueue:
+        name: ead.paymentevent.ms.authuser
 authuser:
   refreshscope:
     name: jefferson barbosa update
